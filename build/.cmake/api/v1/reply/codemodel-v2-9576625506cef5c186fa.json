@@ -1,0 +1,61 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-37580438946213b068d3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PokenoSouthPrimary",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "PokenoSouthPrimary::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PokenoSouthPrimary-Debug-b3fdf28eb0e0649cd661.json",
+					"name" : "PokenoSouthPrimary",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/calkindev/Desktop/dev/CLion/105-Development_PrinciplesII-Assessment_2-AdamCalkin_270712965/105-Development-Principles2/build",
+		"source" : "/Users/calkindev/Desktop/dev/CLion/105-Development_PrinciplesII-Assessment_2-AdamCalkin_270712965/105-Development-Principles2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

@@ -1,0 +1,21 @@
+CourseId,CourseName,Credits,Description,Duration,StartDate,EndDate,MaxEnrollment,IsActive
+MATH101,Mathematics Foundation,3,Introduction to basic mathematics concepts including addition subtraction multiplication and division,40,2024-09-01,2024-12-15,25,Yes
+ENG101,English Language Arts,3,Development of reading writing speaking and listening skills through literature and creative writing,40,2024-09-01,2024-12-15,25,Yes
+SCI101,Science Exploration,3,Introduction to scientific concepts through hands-on experiments and nature observation,40,2024-09-01,2024-12-15,25,Yes
+SOC101,Social Studies,2,Understanding community culture and basic geography through interactive activities,30,2024-09-01,2024-12-15,25,Yes
+ART101,Creative Arts,2,Expression through drawing painting music and drama activities,30,2024-09-01,2024-12-15,20,Yes
+PE101,Physical Education,2,Development of motor skills through games sports and physical activities,30,2024-09-01,2024-12-15,30,Yes
+TECH101,Technology Basics,2,Introduction to computers digital literacy and basic programming concepts,30,2024-09-01,2024-12-15,20,Yes
+HEALTH101,Health and Wellness,1,Personal hygiene nutrition safety and emotional wellbeing,20,2024-09-01,2024-12-15,25,Yes
+MUSIC101,Music Appreciation,2,Introduction to music theory rhythm and various musical instruments,30,2024-09-01,2024-12-15,20,Yes
+DRAMA101,Drama and Theatre,2,Creative expression through role-playing storytelling and performance,30,2024-09-01,2024-12-15,20,Yes
+MATH201,Advanced Mathematics,4,Building on foundation math with fractions decimals and basic geometry,45,2024-09-01,2024-12-15,20,Yes
+ENG201,Advanced English,4,Enhanced reading comprehension creative writing and public speaking skills,45,2024-09-01,2024-12-15,20,Yes
+SCI201,Advanced Science,4,Deeper exploration of physics chemistry and biology through advanced experiments,45,2024-09-01,2024-12-15,20,Yes
+SPAN101,Spanish Language,3,Introduction to Spanish vocabulary grammar and cultural awareness,40,2024-09-01,2024-12-15,20,Yes
+FREN101,French Language,3,Basic French language skills and introduction to French culture,40,2024-09-01,2024-12-15,15,Yes
+COOK101,Cooking Skills,2,Basic cooking techniques nutrition and food safety,30,2024-09-01,2024-12-15,15,Yes
+GARDEN101,Gardening Club,1,Learning about plants nature and sustainable living through hands-on gardening,20,2024-09-01,2024-12-15,15,Yes
+CHESS101,Chess Club,1,Strategic thinking and problem-solving through chess instruction and play,20,2024-09-01,2024-12-15,20,Yes
+READ101,Reading Club,1,Enhanced reading skills through book discussions and reading challenges,20,2024-09-01,2024-12-15,25,Yes
+TUTOR101,Peer Tutoring,1,Advanced students helping peers with academic support and mentoring,20,2024-09-01,2024-12-15,10,Yes

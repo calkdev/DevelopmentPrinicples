@@ -1,0 +1,51 @@
+RollNumber,FirstName,LastName,Address,DateOfBirth,ContactEmail,EmergencyContact,EnrollmentDate
+1,Emma,Johnson,12 Oak St,2013-03-15,emma.johnson@pokenosouth.ac.nz,0211234567,2024-09-01
+2,Liam,Smith,34 Maple Ave,2013-07-22,liam.smith@pokenosouth.ac.nz,0218765432,2024-09-01
+3,Olivia,Brown,56 Willow Rd,2013-11-08,olivia.brown@pokenosouth.ac.nz,0214309876,2024-09-01
+4,Noah,Davis,78 Elm St,2014-01-14,noah.davis@pokenosouth.ac.nz,0212046801,2024-09-01
+5,Ava,Wilson,90 Pine Cres,2014-04-30,ava.wilson@pokenosouth.ac.nz,0215567788,2024-09-01
+6,William,Moore,23 Cedar Dr,2013-09-12,william.moore@pokenosouth.ac.nz,0217093142,2024-09-01
+7,Sophia,Taylor,45 Birch Ln,2013-12-05,sophia.taylor@pokenosouth.ac.nz,0219900123,2024-09-01
+8,James,Anderson,67 Spruce Ct,2014-02-18,james.anderson@pokenosouth.ac.nz,02148392016,2024-09-01
+9,Isabella,Thomas,89 Poplar Pl,2013-06-27,isabella.thomas@pokenosouth.ac.nz,02160857124,2024-09-01
+10,Benjamin,Jackson,101 Redwood Blvd,2014-05-11,benjamin.jackson@pokenosouth.ac.nz,02175006439,2024-09-01
+11,Charlotte,White,15 Oak Street,2013-10-03,charlotte.white@pokenosouth.ac.nz,02129640781,2024-09-01
+12,Lucas,Harris,27 Elm Avenue,2014-01-09,lucas.harris@pokenosouth.ac.nz,02183517042,2024-09-01
+13,Amelia,Martin,39 Pine Road,2013-08-16,amelia.martin@pokenosouth.ac.nz,02194260358,2024-09-01
+14,Henry,Thompson,51 Cedar Lane,2014-03-25,henry.thompson@pokenosouth.ac.nz,0221357924,2024-09-01
+15,Harper,Garcia,63 Maple Drive,2013-11-20,harper.garcia@pokenosouth.ac.nz,0222468135,2024-09-01
+16,Alexander,Martinez,75 Birch Court,2014-04-07,alexander.martinez@pokenosouth.ac.nz,0229081726,2024-09-01
+17,Evelyn,Robinson,87 Willow Way,2013-07-13,evelyn.robinson@pokenosouth.ac.nz,0223141592,2024-09-01
+18,Sebastian,Clark,99 Spruce Street,2014-02-28,sebastian.clark@pokenosouth.ac.nz,0225012345,2024-09-01
+19,Abigail,Rodriguez,111 Poplar Place,2013-09-30,abigail.rodriguez@pokenosouth.ac.nz,0227770001,2024-09-01
+20,Michael,Lewis,123 Redwood Road,2014-05-17,michael.lewis@pokenosouth.ac.nz,0226204809,2024-09-01
+21,Emily,Lee,2013-04-12,,emily.lee@pokenosouth.ac.nz,02248392017,2024-09-01
+22,Ethan,Walker,2013-12-08,,ethan.walker@pokenosouth.ac.nz,02260857125,2024-09-01
+23,Elizabeth,Hall,2014-01-23,,elizabeth.hall@pokenosouth.ac.nz,02275006430,2024-09-01
+24,Owen,Allen,2013-06-19,,owen.allen@pokenosouth.ac.nz,02229640782,2024-09-01
+25,Mia,Young,2014-03-14,,mia.young@pokenosouth.ac.nz,,2024-09-01
+26,Daniel,Hernandez,2013-10-10,,daniel.hernandez@pokenosouth.ac.nz,,2024-09-01
+27,Grace,King,2014-02-06,,grace.parent@pokenosouth.ac.nz,,2024-09-01
+28,Jackson,Wright,2013-08-01,,jackson.wright@pokenosouth.ac.nz,,2024-09-01
+29,Chloe,Lopez,2014-04-22,,chloe.lopez@pokenosouth.ac.nz,,2024-09-01
+30,Matthew,Hill,2013-11-28,,matthew.hill@pokenosouth.ac.nz,,2024-09-01
+31,Victoria,Scott,2014-01-15,,victoria.scott@pokenosouth.ac.nz,,2024-09-01
+32,David,Green,2013-05-21,,david.green@pokenosouth.ac.nz,,2024-09-01
+33,Zoe,Adams,2014-03-03,,zoe.adams@pokenosouth.ac.nz,,2024-09-01
+34,Joseph,Baker,2013-09-17,,joseph.baker@pokenosouth.ac.nz,joseph.emergency@contact.com,2024-09-01
+35,Lily,Gonzalez,2014-05-08,,lily.gonzalez@pokenosouth.ac.nz,lily.emergency@contact.com,2024-09-01
+36,Samuel,Nelson,2013-07-25,,samuel.nelsom@pokenosouth.ac.nz,samuel.emergency@contact.com,2024-09-01
+37,Natalie,Carter,2014-02-11,,natalie.carter@pokenosouth.ac.nz,natalie.emergency@contact.com,2024-09-01
+38,Christopher,Mitchell,2013-10-29,,christopher.mitchell@pokenosouth.ac.nz,christopher.emergency@contact.com,2024-09-01
+39,Leah,Perez,2014-04-16,,leah.perez@pokenosouth.ac.nz,leah.emergency@contact.com,2024-09-01
+40,Andrew,Roberts,2013-12-02,,andrew.roberts@pokenosouth.ac.nz,andrew.emergency@contact.com,2024-09-01
+41,Aubrey,Turner,2014-01-28,,aubrey.turner@pokenosouth.ac.nz,aubrey.emergency@contact.com,2024-09-01
+42,Joshua,Phillips,2013-06-14,,joshua.phillips@pokenosouth.ac.nz,joshua.emergency@contact.com,2024-09-01
+43,Zoey,Campbell,2014-03-31,,zoey.campbell@pokenosouth.ac.nz,zoey.emergency@contact.com,2024-09-01
+44,Nicholas,Parker,2013-08-07,,nicholas.parker@pokenosouth.ac.nz,nicholas.emergency@contact.com,2024-09-01
+45,Penelope,Evans,2014-05-24,,penelope.evans@pokenosouth.ac.nz,penelope.emergency@contact.com,2024-09-01
+46,Ryan,Edwards,2013-11-11,,ryan.edwards@pokenosouth.ac.nz,ryan.emergency@contact.com,2024-09-01
+47,Layla,Collins,2014-02-17,,layla.collins@pokenosouth.ac.nz,layla.emergency@contact.com,2024-09-01
+48,Connor,Stewart,2013-09-04,,connor.stewart@pokenosouth.ac.nz,connor.emergency@contact.com,2024-09-01
+49,Nora,Sanchez,2014-04-20,,nora.sanchez@pokenosouth.ac.nz,nora.emergency@contact.com,2024-09-01
+50,Mason,Morris,2013-12-27,,mason.morris@pokenosouth.ac.nz,mas,2024-09-01

@@ -1,0 +1,66 @@
+AssessmentId,StudentRollNumber,CourseId,InternalMarks,FinalMarks,CalculatedGrade,AssessmentDate,AssessmentType,IsSubmitted,SubmissionDate,Remarks
+MATH101_Q1_001,1,MATH101,18.0,20.0,90.0,2024-10-15,Quiz,Yes,2024-10-15,Excellent understanding of addition concepts
+MATH101_Q1_002,2,MATH101,16.0,20.0,80.0,2024-10-15,Quiz,Yes,2024-10-15,Good work with minor calculation errors
+MATH101_Q1_003,3,MATH101,19.0,20.0,95.0,2024-10-15,Quiz,Yes,2024-10-15,Outstanding performance in all areas
+MATH101_Q1_004,4,MATH101,15.0,20.0,75.0,2024-10-15,Quiz,Yes,2024-10-15,Needs practice with word problems
+MATH101_Q1_005,5,MATH101,17.0,20.0,85.0,2024-10-15,Quiz,Yes,2024-10-15,Strong grasp of basic concepts
+ENG101_E1_001,1,ENG101,22.0,25.0,88.0,2024-10-20,Essay,Yes,2024-10-20,Creative writing shows imagination and good structure
+ENG101_E1_002,2,ENG101,20.0,25.0,80.0,2024-10-20,Essay,Yes,2024-10-20,Good ideas need improvement in grammar
+ENG101_E1_003,3,ENG101,24.0,25.0,96.0,2024-10-20,Essay,Yes,2024-10-20,Exceptional vocabulary and storytelling ability
+ENG101_E1_004,4,ENG101,19.0,25.0,76.0,2024-10-20,Essay,Yes,2024-10-20,Shows potential needs more descriptive language
+ENG101_E1_005,5,ENG101,21.0,25.0,84.0,2024-10-20,Essay,Yes,2024-10-20,Well organized thoughts and clear expression
+SCI101_L1_001,1,SCI101,28.0,30.0,93.0,2024-10-25,Lab Report,Yes,2024-10-25,Excellent observation skills and detailed notes
+SCI101_L1_002,2,SCI101,25.0,30.0,83.0,2024-10-25,Lab Report,Yes,2024-10-25,Good experimental approach needs better conclusions
+SCI101_L1_003,3,SCI101,29.0,30.0,97.0,2024-10-25,Lab Report,Yes,2024-10-25,Outstanding scientific thinking and methodology
+SCI101_L1_004,4,SCI101,23.0,30.0,77.0,2024-10-25,Lab Report,Yes,2024-10-25,Shows curiosity needs improvement in recording data
+SCI101_L1_005,5,SCI101,27.0,30.0,90.0,2024-10-25,Lab Report,Yes,2024-10-25,Strong analytical skills and clear explanations
+MATH101_M1_001,1,MATH101,42.0,50.0,84.0,2024-11-01,Midterm,Yes,2024-11-01,Solid understanding of all covered topics
+MATH101_M1_002,2,MATH101,38.0,50.0,76.0,2024-11-01,Midterm,Yes,2024-11-01,Good effort needs review of multiplication tables
+MATH101_M1_003,3,MATH101,47.0,50.0,94.0,2024-11-01,Midterm,Yes,2024-11-01,Exceptional mathematical reasoning and accuracy
+MATH101_M1_004,4,MATH101,35.0,50.0,70.0,2024-11-01,Midterm,Yes,2024-11-01,Understands concepts needs more practice
+MATH101_M1_005,5,MATH101,44.0,50.0,88.0,2024-11-01,Midterm,Yes,2024-11-01,Strong performance with consistent accuracy
+ENG101_P1_001,6,ENG101,45.0,50.0,90.0,2024-11-05,Presentation,Yes,2024-11-05,Confident speaker with engaging content
+ENG101_P1_002,7,ENG101,40.0,50.0,80.0,2024-11-05,Presentation,Yes,2024-11-05,Good preparation needs to speak louder
+ENG101_P1_003,8,ENG101,48.0,50.0,96.0,2024-11-05,Presentation,Yes,2024-11-05,Outstanding presentation skills and creativity
+ENG101_P1_004,9,ENG101,37.0,50.0,74.0,2024-11-05,Presentation,Yes,2024-11-05,Shows effort needs practice with public speaking
+ENG101_P1_005,10,ENG101,43.0,50.0,86.0,2024-11-05,Presentation,Yes,2024-11-05,Well organized and clearly delivered
+ART101_P1_001,11,ART101,27.0,30.0,90.0,2024-11-10,Project,Yes,2024-11-10,Beautiful artwork shows excellent technique
+ART101_P1_002,12,ART101,24.0,30.0,80.0,2024-11-10,Project,Yes,2024-11-10,Creative concept good use of color
+ART101_P1_003,13,ART101,29.0,30.0,97.0,2024-11-10,Project,Yes,2024-11-10,Exceptional artistic vision and skill
+ART101_P1_004,14,ART101,22.0,30.0,73.0,2024-11-10,Project,Yes,2024-11-10,Shows artistic potential needs more patience
+ART101_P1_005,15,ART101,26.0,30.0,87.0,2024-11-10,Project,Yes,2024-11-10,Strong artistic expression and attention to detail
+PE101_S1_001,16,PE101,85.0,100.0,85.0,2024-11-12,Skills Test,Yes,2024-11-12,Excellent motor skills and coordination
+PE101_S1_002,17,PE101,78.0,100.0,78.0,2024-11-12,Skills Test,Yes,2024-11-12,Good athletic ability shows improvement
+PE101_S1_003,18,PE101,92.0,100.0,92.0,2024-11-12,Skills Test,Yes,2024-11-12,Outstanding physical fitness and technique
+PE101_S1_004,19,PE101,71.0,100.0,71.0,2024-11-12,Skills Test,Yes,2024-11-12,Developing skills with positive attitude
+PE101_S1_005,20,PE101,88.0,100.0,88.0,2024-11-12,Skills Test,Yes,2024-11-12,Strong performance and team spirit
+SOC101_Q2_001,21,SOC101,16.0,20.0,80.0,2024-11-15,Quiz,Yes,2024-11-15,Good understanding of community concepts
+SOC101_Q2_002,22,SOC101,18.0,20.0,90.0,2024-11-15,Quiz,Yes,2024-11-15,Excellent knowledge of local geography
+SOC101_Q2_003,23,SOC101,19.0,20.0,95.0,2024-11-15,Quiz,Yes,2024-11-15,Outstanding cultural awareness and understanding
+SOC101_Q2_004,24,SOC101,15.0,20.0,75.0,2024-11-15,Quiz,Yes,2024-11-15,Developing understanding needs more study
+SOC101_Q2_005,25,SOC101,17.0,20.0,85.0,2024-11-15,Quiz,Yes,2024-11-15,Good grasp of social studies concepts
+TECH101_P2_001,26,TECH101,32.0,40.0,80.0,2024-11-18,Project,Yes,2024-11-18,Good computer skills and digital literacy
+TECH101_P2_002,27,TECH101,36.0,40.0,90.0,2024-11-18,Project,Yes,2024-11-18,Excellent understanding of technology concepts
+TECH101_P2_003,28,TECH101,38.0,40.0,95.0,2024-11-18,Project,Yes,2024-11-18,Outstanding programming logic and creativity
+TECH101_P2_004,29,TECH101,30.0,40.0,75.0,2024-11-18,Project,Yes,2024-11-18,Shows interest needs more practice
+TECH101_P2_005,30,TECH101,34.0,40.0,85.0,2024-11-18,Project,Yes,2024-11-18,Strong technical skills and problem solving
+MUSIC101_P3_001,31,MUSIC101,22.0,25.0,88.0,2024-11-20,Performance,Yes,2024-11-20,Beautiful musical expression and rhythm
+MUSIC101_P3_002,32,MUSIC101,20.0,25.0,80.0,2024-11-20,Performance,Yes,2024-11-20,Good musical ability needs confidence
+MUSIC101_P3_003,33,MUSIC101,24.0,25.0,96.0,2024-11-20,Performance,Yes,2024-11-20,Exceptional musical talent and stage presence
+MUSIC101_P3_004,34,MUSIC101,19.0,25.0,76.0,2024-11-20,Performance,Yes,2024-11-20,Shows musical potential needs more practice
+MUSIC101_P3_005,35,MUSIC101,23.0,25.0,92.0,2024-11-20,Performance,Yes,2024-11-20,Strong musical skills and interpretation
+MATH201_Q3_001,36,MATH201,17.0,20.0,85.0,2024-11-22,Quiz,Yes,2024-11-22,Advanced mathematical thinking and accuracy
+MATH201_Q3_002,37,MATH201,19.0,20.0,95.0,2024-11-22,Quiz,Yes,2024-11-22,Outstanding problem solving abilities
+MATH201_Q3_003,38,MATH201,18.0,20.0,90.0,2024-11-22,Quiz,Yes,2024-11-22,Excellent understanding of complex concepts
+MATH201_Q3_004,39,MATH201,16.0,20.0,80.0,2024-11-22,Quiz,Yes,2024-11-22,Good progress in advanced mathematics
+MATH201_Q3_005,40,MATH201,17.0,20.0,85.0,2024-11-22,Quiz,Yes,2024-11-22,Strong analytical skills and reasoning
+ENG201_E2_001,41,ENG201,23.0,25.0,92.0,2024-11-25,Essay,Yes,2024-11-25,Advanced writing skills and literary analysis
+ENG201_E2_002,42,ENG201,21.0,25.0,84.0,2024-11-25,Essay,Yes,2024-11-25,Good critical thinking needs style refinement
+ENG201_E2_003,43,ENG201,24.0,25.0,96.0,2024-11-25,Essay,Yes,2024-11-25,Exceptional literary insight and expression
+ENG201_E2_004,44,ENG201,20.0,25.0,80.0,2024-11-25,Essay,Yes,2024-11-25,Developing advanced skills shows potential
+ENG201_E2_005,45,ENG201,22.0,25.0,88.0,2024-11-25,Essay,Yes,2024-11-25,Strong analytical writing and creativity
+SPAN101_O1_001,46,SPAN101,36.0,40.0,90.0,2024-11-28,Oral Exam,Yes,2024-11-28,Excellent pronunciation and vocabulary
+SPAN101_O1_002,47,SPAN101,32.0,40.0,80.0,2024-11-28,Oral Exam,Yes,2024-11-28,Good effort needs practice with grammar
+SPAN101_O1_003,48,SPAN101,38.0,40.0,95.0,2024-11-28,Oral Exam,Yes,2024-11-28,Outstanding language skills and fluency
+SPAN101_O1_004,49,SPAN101,30.0,40.0,75.0,2024-11-28,Oral Exam,Yes,2024-11-28,Shows promise needs more confidence
+SPAN101_O1_005,50,SPAN101,35.0,40.0,88.0,2024-11-28,Oral Exam,Yes,2024-11-28,Strong language development and cultural understanding

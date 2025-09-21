@@ -1,0 +1,56 @@
+[
+{
+  "directory": "/Users/calkindev/Desktop/dev/CLion/105-Development_PrinciplesII-Assessment_2-AdamCalkin_270712965/105-Development-Principles2/build",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++ -DDEBUG_BUILD -I/Users/calkindev/Desktop/dev/CLion/105-Development_PrinciplesII-Assessment_2-AdamCalkin_270712965/105-Development-Principles2/src  -Wall -Wextra -Wpedantic -g -g -O0 -std=c++17 -arch arm64 -o CMakeFiles/PokenoSouthPrimary.dir/src/main.cpp.o -c /Users/calkindev/Desktop/dev/CLion/105-Development_PrinciplesII-Assessment_2-AdamCalkin_270712965/105-Development-Principles2/src/main.cpp",
+  "file": "/Users/calkindev/Desktop/dev/CLion/105-Development_PrinciplesII-Assessment_2-AdamCalkin_270712965/105-Development-Principles2/src/main.cpp",
+  "output": "CMakeFiles/PokenoSouthPrimary.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/calkindev/Desktop/dev/CLion/105-Development_PrinciplesII-Assessment_2-AdamCalkin_270712965/105-Development-Principles2/build",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++ -DDEBUG_BUILD -I/Users/calkindev/Desktop/dev/CLion/105-Development_PrinciplesII-Assessment_2-AdamCalkin_270712965/105-Development-Principles2/src  -Wall -Wextra -Wpedantic -g -g -O0 -std=c++17 -arch arm64 -o CMakeFiles/PokenoSouthPrimary.dir/src/common.cpp.o -c /Users/calkindev/Desktop/dev/CLion/105-Development_PrinciplesII-Assessment_2-AdamCalkin_270712965/105-Development-Principles2/src/common.cpp",
+  "file": "/Users/calkindev/Desktop/dev/CLion/105-Development_PrinciplesII-Assessment_2-AdamCalkin_270712965/105-Development-Principles2/src/common.cpp",
+  "output": "CMakeFiles/PokenoSouthPrimary.dir/src/common.cpp.o"
+},
+{
+  "directory": "/Users/calkindev/Desktop/dev/CLion/105-Development_PrinciplesII-Assessment_2-AdamCalkin_270712965/105-Development-Principles2/build",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++ -DDEBUG_BUILD -I/Users/calkindev/Desktop/dev/CLion/105-Development_PrinciplesII-Assessment_2-AdamCalkin_270712965/105-Development-Principles2/src  -Wall -Wextra -Wpedantic -g -g -O0 -std=c++17 -arch arm64 -o CMakeFiles/PokenoSouthPrimary.dir/src/Student.cpp.o -c /Users/calkindev/Desktop/dev/CLion/105-Development_PrinciplesII-Assessment_2-AdamCalkin_270712965/105-Development-Principles2/src/Student.cpp",
+  "file": "/Users/calkindev/Desktop/dev/CLion/105-Development_PrinciplesII-Assessment_2-AdamCalkin_270712965/105-Development-Principles2/src/Student.cpp",
+  "output": "CMakeFiles/PokenoSouthPrimary.dir/src/Student.cpp.o"
+},
+{
+  "directory": "/Users/calkindev/Desktop/dev/CLion/105-Development_PrinciplesII-Assessment_2-AdamCalkin_270712965/105-Development-Principles2/build",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++ -DDEBUG_BUILD -I/Users/calkindev/Desktop/dev/CLion/105-Development_PrinciplesII-Assessment_2-AdamCalkin_270712965/105-Development-Principles2/src  -Wall -Wextra -Wpedantic -g -g -O0 -std=c++17 -arch arm64 -o CMakeFiles/PokenoSouthPrimary.dir/src/Course.cpp.o -c /Users/calkindev/Desktop/dev/CLion/105-Development_PrinciplesII-Assessment_2-AdamCalkin_270712965/105-Development-Principles2/src/Course.cpp",
+  "file": "/Users/calkindev/Desktop/dev/CLion/105-Development_PrinciplesII-Assessment_2-AdamCalkin_270712965/105-Development-Principles2/src/Course.cpp",
+  "output": "CMakeFiles/PokenoSouthPrimary.dir/src/Course.cpp.o"
+},
+{
+  "directory": "/Users/calkindev/Desktop/dev/CLion/105-Development_PrinciplesII-Assessment_2-AdamCalkin_270712965/105-Development-Principles2/build",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++ -DDEBUG_BUILD -I/Users/calkindev/Desktop/dev/CLion/105-Development_PrinciplesII-Assessment_2-AdamCalkin_270712965/105-Development-Principles2/src  -Wall -Wextra -Wpedantic -g -g -O0 -std=c++17 -arch arm64 -o CMakeFiles/PokenoSouthPrimary.dir/src/Assessment.cpp.o -c /Users/calkindev/Desktop/dev/CLion/105-Development_PrinciplesII-Assessment_2-AdamCalkin_270712965/105-Development-Principles2/src/Assessment.cpp",
+  "file": "/Users/calkindev/Desktop/dev/CLion/105-Development_PrinciplesII-Assessment_2-AdamCalkin_270712965/105-Development-Principles2/src/Assessment.cpp",
+  "output": "CMakeFiles/PokenoSouthPrimary.dir/src/Assessment.cpp.o"
+},
+{
+  "directory": "/Users/calkindev/Desktop/dev/CLion/105-Development_PrinciplesII-Assessment_2-AdamCalkin_270712965/105-Development-Principles2/build",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++ -DDEBUG_BUILD -I/Users/calkindev/Desktop/dev/CLion/105-Development_PrinciplesII-Assessment_2-AdamCalkin_270712965/105-Development-Principles2/src  -Wall -Wextra -Wpedantic -g -g -O0 -std=c++17 -arch arm64 -o CMakeFiles/PokenoSouthPrimary.dir/src/System.cpp.o -c /Users/calkindev/Desktop/dev/CLion/105-Development_PrinciplesII-Assessment_2-AdamCalkin_270712965/105-Development-Principles2/src/System.cpp",
+  "file": "/Users/calkindev/Desktop/dev/CLion/105-Development_PrinciplesII-Assessment_2-AdamCalkin_270712965/105-Development-Principles2/src/System.cpp",
+  "output": "CMakeFiles/PokenoSouthPrimary.dir/src/System.cpp.o"
+},
+{
+  "directory": "/Users/calkindev/Desktop/dev/CLion/105-Development_PrinciplesII-Assessment_2-AdamCalkin_270712965/105-Development-Principles2/build",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++ -DDEBUG_BUILD -I/Users/calkindev/Desktop/dev/CLion/105-Development_PrinciplesII-Assessment_2-AdamCalkin_270712965/105-Development-Principles2/src  -Wall -Wextra -Wpedantic -g -g -O0 -std=c++17 -arch arm64 -o CMakeFiles/PokenoSouthPrimary.dir/src/FileHandler.cpp.o -c /Users/calkindev/Desktop/dev/CLion/105-Development_PrinciplesII-Assessment_2-AdamCalkin_270712965/105-Development-Principles2/src/FileHandler.cpp",
+  "file": "/Users/calkindev/Desktop/dev/CLion/105-Development_PrinciplesII-Assessment_2-AdamCalkin_270712965/105-Development-Principles2/src/FileHandler.cpp",
+  "output": "CMakeFiles/PokenoSouthPrimary.dir/src/FileHandler.cpp.o"
+},
+{
+  "directory": "/Users/calkindev/Desktop/dev/CLion/105-Development_PrinciplesII-Assessment_2-AdamCalkin_270712965/105-Development-Principles2/build",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++ -DDEBUG_BUILD -I/Users/calkindev/Desktop/dev/CLion/105-Development_PrinciplesII-Assessment_2-AdamCalkin_270712965/105-Development-Principles2/src  -Wall -Wextra -Wpedantic -g -g -O0 -std=c++17 -arch arm64 -o CMakeFiles/PokenoSouthPrimary.dir/src/Grade.cpp.o -c /Users/calkindev/Desktop/dev/CLion/105-Development_PrinciplesII-Assessment_2-AdamCalkin_270712965/105-Development-Principles2/src/Grade.cpp",
+  "file": "/Users/calkindev/Desktop/dev/CLion/105-Development_PrinciplesII-Assessment_2-AdamCalkin_270712965/105-Development-Principles2/src/Grade.cpp",
+  "output": "CMakeFiles/PokenoSouthPrimary.dir/src/Grade.cpp.o"
+},
+{
+  "directory": "/Users/calkindev/Desktop/dev/CLion/105-Development_PrinciplesII-Assessment_2-AdamCalkin_270712965/105-Development-Principles2/build",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++ -DDEBUG_BUILD -I/Users/calkindev/Desktop/dev/CLion/105-Development_PrinciplesII-Assessment_2-AdamCalkin_270712965/105-Development-Principles2/src  -Wall -Wextra -Wpedantic -g -g -O0 -std=c++17 -arch arm64 -o CMakeFiles/PokenoSouthPrimary.dir/src/GradeCalculator.cpp.o -c /Users/calkindev/Desktop/dev/CLion/105-Development_PrinciplesII-Assessment_2-AdamCalkin_270712965/105-Development-Principles2/src/GradeCalculator.cpp",
+  "file": "/Users/calkindev/Desktop/dev/CLion/105-Development_PrinciplesII-Assessment_2-AdamCalkin_270712965/105-Development-Principles2/src/GradeCalculator.cpp",
+  "output": "CMakeFiles/PokenoSouthPrimary.dir/src/GradeCalculator.cpp.o"
+}
+]

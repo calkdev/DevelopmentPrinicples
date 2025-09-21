@@ -1,0 +1,222 @@
+@startuml PokenoSouthPrimarySchoolClassDiagram
+!theme plain
+title Pokeno South Primary School - Student Management System Class Diagram
+
+' Entity Classes
+package "Entity Layer" {
+    abstract class Grade {
+        +{abstract} calculateGrade() : double
+        +{abstract} getGradeType() : string
+    }
+
+    class Student {
+        -rollNumber : const int
+        -firstName : string
+        -lastName : string
+        -dateOfBirth : string
+        -address : string
+        -contactEmail : string
+        -emergencyContact : string
+        -enrollmentDate : string
+        -enrolledCourses : vector<shared_ptr<Course>>
+        -assessments : vector<shared_ptr<Assessment>>
+
+        +Student(rollNumber, firstName, lastName, dateOfBirth, address, contactEmail, emergencyContact, enrollmentDate)
+        +getRollNumber() : int
+        +getFirstName() : string
+        +getLastName() : string
+        +getFullName() : string
+        +getAge() : int
+        +enrollInCourse(course : shared_ptr<Course>) : void
+        +withdrawFromCourse(courseId : string) : void
+        +addAssessment(assessment : shared_ptr<Assessment>) : void
+        +getOverallGrade() : double
+        +getCourseGrade(courseId : string) : double
+        +displayStudentInfo() : void
+        +toCSVString() : string
+        +{static} MIN_ROLL_NUMBER : const int
+        +{static} MAX_ROLL_NUMBER : const int
+        +{static} PASS_THRESHOLD : const double
+    }
+
+    class Course {
+        -courseId : const string
+        -courseName : string
+        -credits : int
+        -description : string
+        -teacher : string
+        -duration : int
+        -enrolledStudents : vector<shared_ptr<Student>>
+        -startDate : string
+        -endDate : string
+        -maxEnrollment : int
+        -isActive : bool
+
+        +Course(courseId, courseName, credits, description, duration)
+        +getCourseId() : string
+        +getCourseName() : string
+        +getCredits() : int
+        +getCurrentEnrollment() : int
+        +enrollStudent(student : shared_ptr<Student>) : bool
+        +withdrawStudent(rollNumber : int) : bool
+        +isStudentEnrolled(rollNumber : int) : bool
+        +getCourseAverageGrade() : double
+        +displayCourseInfo() : void
+        +toCSVString() : string
+        +{static} MIN_CREDITS : const int
+        +{static} MAX_CREDITS : const int
+        +{static} DEFAULT_MAX_ENROLLMENT : const int
+    }
+
+    class Assessment {
+        -assessmentId : const string
+        -studentRollNumber : const int
+        -courseId : const string
+        -internalMarks : double
+        -finalMarks : double
+        -assessmentDate : string
+        -calculatedGrade : mutable double
+        -gradeNeedsRecalculation : mutable bool
+        -assessmentType : string
+        -remarks : string
+        -isSubmitted : bool
+
+        +Assessment(assessmentId, studentRollNumber, courseId, internalMarks, finalMarks, assessmentDate)
+        +calculateGrade() : double
+        +getGradeType() : string
+        +getAssessmentId() : string
+        +getStudentRollNumber() : int
+        +getCourseId() : string
+        +getCalculatedGrade() : double
+        +getLetterGrade() : string
+        +isPassing() : bool
+        +setInternalMarks(marks : double) : void
+        +setFinalMarks(marks : double) : void
+        +displayAssessmentInfo() : void
+        +toCSVString() : string
+        +{static} INTERNAL_WEIGHT : const double
+        +{static} FINAL_WEIGHT : const double
+        +{static} PASS_THRESHOLD : const double
+    }
+}
+
+' Strategy Pattern for Grade Calculation
+package "Strategy Pattern" {
+    struct AssessmentScore {
+        +rollNumber : int
+        +courseCode : string
+        +assessmentId : string
+        +score : double
+        +weight : double
+    }
+
+    abstract class GradeCalculator {
+        +{abstract} calculateGrade(scores : vector<AssessmentScore>) : double
+    }
+
+    class WeightedAverageCalculator {
+        +calculateGrade(scores : vector<AssessmentScore>) : double
+    }
+
+    class BestNOutOfMCalculator {
+        -bestN_ : size_t
+        +BestNOutOfMCalculator(bestN : size_t)
+        +calculateGrade(scores : vector<AssessmentScore>) : double
+    }
+}
+
+' Controller Layer
+package "Controller Layer" {
+    class System {
+        -students : vector<shared_ptr<Student>>
+        -courses : vector<shared_ptr<Course>>
+        -assessments : vector<shared_ptr<Assessment>>
+        -isRunning : bool
+        -dataLoaded : bool
+        -currentSession : string
+
+        +System()
+        +initialize() : bool
+        +run() : int
+        +shutdown() : bool
+        +addStudent(student : shared_ptr<Student>) : bool
+        +addCourse(course : shared_ptr<Course>) : bool
+        +addAssessment(assessment : shared_ptr<Assessment>) : bool
+        +enrollStudent(rollNumber : int, courseId : string) : bool
+        +loadData() : bool
+        +saveData() : bool
+        +getStudentCount() : size_t
+        +getCourseCount() : size_t
+        +getAssessmentCount() : size_t
+        -displayMainMenu() : void
+        -handleStudentMenu() : void
+        -handleCourseMenu() : void
+        -handleAssessmentMenu() : void
+    }
+}
+
+' Repository Pattern
+package "Repository Layer" {
+    class FileHandler {
+        +{static} STUDENTS_FILE : const char*
+        +{static} COURSES_FILE : const char*
+        +{static} ASSESSMENTS_FILE : const char*
+        +{static} ENROLLMENTS_FILE : const char*
+
+        +{static} loadStudentsFromFile(students : vector<shared_ptr<Student>>&) : bool
+        +{static} saveStudentsToFile(students : vector<shared_ptr<Student>>&) : bool
+        +{static} loadCoursesFromFile(courses : vector<shared_ptr<Course>>&) : bool
+        +{static} saveCoursesToFile(courses : vector<shared_ptr<Course>>&) : bool
+        +{static} loadAssessmentsFromFile(assessments : vector<shared_ptr<Assessment>>&) : bool
+        +{static} saveAssessmentsToFile(assessments : vector<shared_ptr<Assessment>>&) : bool
+        +{static} loadAllData(students, courses, assessments) : bool
+        +{static} saveAllData(students, courses, assessments) : bool
+        +{static} backupDataFiles() : bool
+        +{static} validateDataIntegrity() : bool
+        -FileHandler()
+        -{static} parseCSVLine(line : string) : vector<string>
+        -{static} escapeCSVField(field : string) : string
+    }
+}
+
+' Utility Layer
+package "Utility Layer" {
+    class Common <<namespace>> {
+        +{static} isValidEmail(email : string) : bool
+        +{static} isValidPhoneNumber(phoneNumber : string) : bool
+        +{static} isValidDate(date : string) : bool
+        +{static} sanitizeInput(input : string) : string
+        +{static} trimString(str : string) : string
+        +{static} getCurrentDate() : string
+        +{static} getCurrentTimestamp() : string
+    }
+}
+
+' Relationships
+Student ||--o{ Course : "enrolledCourses\n(many-to-many)"
+Course ||--o{ Student : "enrolledStudents\n(bidirectional)"
+Student ||--* Assessment : "assessments\n(composition)"
+Assessment }o--|| Course : "courseId\n(reference)"
+Assessment --|> Grade : "inheritance"
+Grade <|-- Assessment : "implements"
+GradeCalculator <|-- WeightedAverageCalculator : "implements"
+GradeCalculator <|-- BestNOutOfMCalculator : "implements"
+System *-- Student : "manages"
+System *-- Course : "manages"
+System *-- Assessment : "manages"
+System ..> FileHandler : "uses"
+FileHandler ..> Student : "persists"
+FileHandler ..> Course : "persists"
+FileHandler ..> Assessment : "persists"
+Student ..> Common : "uses"
+Course ..> Common : "uses"
+Assessment ..> Common : "uses"
+System ..> Common : "uses"
+
+' Notes
+note right of Student : "Pattern:\nID (rollNumber)\nComposition with Assessments"
+note right of Assessment : "Weighted Calculation:\n30% Internal + 70% Final"
+note right of FileHandler : "Repository Pattern:\nStatic utility class\nCSV persistence"
+note right of System : "Controller Pattern:\nEntity management\nMenu-driven interface"
+
+@enduml

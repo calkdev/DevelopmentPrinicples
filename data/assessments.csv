@@ -1,0 +1,14 @@
+AssessmentId,StudentRollNumber,CourseId,InternalMarks,FinalMarks,CalculatedGrade,AssessmentDate,AssessmentType,IsSubmitted,SubmissionDate,Remarks
+MATH101,1,MATH101,18.0,20.0,90.0,2024-10-15,Quiz,Yes,2024-10-15,Excellent understanding of addition concepts
+ENG101,1,ENG101,22.0,25.0,88.0,2024-10-20,Essay,Yes,2024-10-20,Creative writing shows imagination and good structure
+SCI101,1,SCI101,28.0,30.0,93.0,2024-10-25,Lab Report,Yes,2024-10-25,Excellent observation skills and detailed notes
+MATH101,1,MATH101,42.0,50.0,84.0,2024-11-01,Midterm,Yes,2024-11-01,Solid understanding of all covered topics
+ENG101_P1_001,6,ENG101,45.0,50.0,90.0,2024-11-05,Presentation,Yes,2024-11-05,Confident speaker with engaging content
+ART101_P1_001,11,ART101,27.0,30.0,90.0,2024-11-10,Project,Yes,2024-11-10,Beautiful artwork shows excellent technique
+PE101_S1_001,16,PE101,85.0,100.0,85.0,2024-11-12,Skills Test,Yes,2024-11-12,Excellent motor skills and coordination
+SOC101_Q2_001,21,SOC101,16.0,20.0,80.0,2024-11-15,Quiz,Yes,2024-11-15,Good understanding of community concepts
+TECH101_P2_001,26,TECH101,32.0,40.0,80.0,2024-11-18,Project,Yes,2024-11-18,Good computer skills and digital literacy
+MUSIC101_P3_001,31,MUSIC101,22.0,25.0,88.0,2024-11-20,Performance,Yes,2024-11-20,Beautiful musical expression and rhythm
+MATH201_Q3_001,36,MATH201,17.0,20.0,85.0,2024-11-22,Quiz,Yes,2024-11-22,Advanced mathematical thinking and accuracy
+ENG201_E2_001,41,ENG201,23.0,25.0,92.0,2024-11-25,Essay,Yes,2024-11-25,Advanced writing skills and literary analysis
+SPAN101_O1_001,46,SPAN101,36.0,40.0,90.0,2024-11-28,Oral Exam,Yes,2024-11-28,Excellent pronunciation and vocabulary
